@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <title>Dashboard | Materialize </title>
+
+  <!-- Favicons-->
+  <link rel="icon" href="images/favicon/favicon-32x32.png" sizes="32x32">
+  <!-- Favicons-->
+  <link rel="apple-touch-icon-precomposed" href="images/favicon/apple-touch-icon-152x152.png">
+  <!-- For iPhone -->
+  <meta name="msapplication-TileColor" content="#00bcd4">
+  <meta name="msapplication-TileImage" content="images/favicon/mstile-144x144.png">
+  <!-- For Windows Phone -->
+
+
+  <!-- CORE CSS-->
+  <script src="https://kit.fontawesome.com/e39ee158f9.js" crossorigin="anonymous"></script>
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection">
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection">
+  <link href="css/style-1.css" type="text/css" rel="stylesheet" media="screen,projection">
+  <!-- Custome CSS-->
+  <link href="css/custom/custom-style.css" type="text/css" rel="stylesheet" media="screen,projection">
+
+
+  <!-- INCLUDED PLUGIN CSS ON THIS PAGE -->
+  <link href="js/plugins/prism/prism.css" type="text/css" rel="stylesheet" media="screen,projection">
+  <link href="js/plugins/perfect-scrollbar/perfect-scrollbar.css" type="text/css" rel="stylesheet"
+    media="screen,projection">
+  <link href="js/plugins/chartist-js/chartist.min.css" type="text/css" rel="stylesheet" media="screen,projection">
+  <style type="text/css">
+    .div8 {
+      padding-bottom: 10px;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Start Page Loading -->
+  <div id="loader-wrapper">
+    <div id="loader"></div>
+    <div class="loader-section section-left"></div>
+    <div class="loader-section section-right"></div>
+  </div>
+
+  <!-- End Page Loading -->
+
+  <!-- //////////////////////////////////////////////////////////////////////////// -->
+
+  <!-- START HEADER -->
+  <header id="header" class="page-topbar">
+    <!-- start header nav-->
+    <div class="navbar-fixed">
+      <nav class="navbar-color">
+        <div class="nav-wrapper">
+          <ul class="left">
+            <li>
+              <h1 class="logo-wrapper"><a href="index.html" class="brand-logo darken-1"><img
+                    src="images/materialize-logo.png" alt="materialize logo"></a> <span
+                  class="logo-text">Materialize</span></h1>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+    <!-- end header nav-->
+  </header>
+  <!-- END HEADER -->
+
+  <!-- //////////////////////////////////////////////////////////////////////////// -->
+
+  <!-- START MAIN -->
+  <div id="main">
+    <!-- START WRAPPER -->
+    <div class="wrapper">
+
+      <!-- START LEFT SIDEBAR NAV-->
+      <aside id="left-sidebar-nav">
+        <ul id="slide-out" class="side-nav fixed leftside-navigation">
+          <li class="user-details cyan darken-2">
+            <div class="row">
+              <div class="col col s4 m4 l4">
+                <img src="images/man.png" alt="" class="circle responsive-img valign profile-image">
+              </div>
+              <div class="col col s8 m8 l8">
+                <ul id="profile-dropdown" class="dropdown-content">
+                  <li><a href="#"><i class="mdi-action-face-unlock"></i> Profile</a>
+                  </li>
+                  <li class="divider"></li>
+                  <li><a href="#"><i class="mdi-hardware-keyboard-tab"></i> Logout</a>
+                  </li>
+                </ul>
+                <a class="btn-flat dropdown-button waves-effect waves-light white-text profile-btn" href="#"
+                  data-activates="profile-dropdown">John Doe<i class="mdi-navigation-arrow-drop-down right"></i></a>
+                <p class="user-roal">Administrator</p>
+              </div>
+            </div>
+          </li>
+          <li class="bold active"><a href="dashboard.html" class="waves-effect waves-cyan"><i
+                class="mdi-action-dashboard"></i> Dashboard</a>
+          </li>
+          <div class="divider"></div>
+          <li class="bold"><a href="cashbank.html" class="waves-effect waves-cyan"><i class="fas fa-university"></i>
+              Cash & Bank</a>
+          </li>
+          <div class="divider"></div>
+          <li class="bold"><a href="penjualan.html" class="waves-effect waves-cyan"><i class="fas fa-dolly-flatbed"></i>
+              Penjualan</a>
+          </li>
+          <div class="divider"></div>
+          <li class="bold"><a href="biaya.html" class="waves-effect waves-cyan"><i class="fas fa-money-bill"></i>
+              Biaya</a>
+          </li>
+        </ul>
+        <a href="#" data-activates="slide-out"
+          class="sidebar-collapse btn-floating btn-medium waves-effect waves-light hide-on-large-only cyan"><i
+            class="mdi-navigation-menu"></i></a>
+      </aside>
+      <!-- END LEFT SIDEBAR NAV-->
+
+      <!-- //////////////////////////////////////////////////////////////////////////// -->
+
+      <!-- START CONTENT -->
+      <section id="content">
+
+        <!--breadcrumbs start-->
+        <div id="breadcrumbs-wrapper">
+          <div class="container">
+            <div class="row">
+              <div class="col s12 m12 l12">
+                <h5 class="breadcrumbs-title">Dashboard</h5>
+                <br>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--breadcrumbs end-->
+
+
+        <!--start container-->
+        <div class="container">
+          <div class="divider"></div>
+        </div>
+        <!--end container-->
+
+      </section>
+      <!-- END CONTENT -->
+
+      <!-- //////////////////////////////////////////////////////////////////////////// -->
+      <!-- START RIGHT SIDEBAR NAV-->
+
+      <!-- LEFT RIGHT SIDEBAR NAV-->
+
+    </div>
+    <!-- END WRAPPER -->
+
+  </div>
+  <!-- END MAIN -->
+
+
+
+  <!-- //////////////////////////////////////////////////////////////////////////// -->
+
+  <!-- START FOOTER -->
+  <footer class="page-footer">
+    <div class="footer-copyright">
+      <div class="container">
+        <span>Copyright © 2015 All rights reserved.</span>
+        <span class="right"> Design and Developed by <a class="grey-text text-lighten-4"
+            href="http://geekslabs.com/">PT. APTA EDU TEKNOLOGI</a></span>
+      </div>
+    </div>
+  </footer>
+  <!-- END FOOTER -->
+
+
+
+  <!-- ================================================
+    Scripts
+    ================================================ -->
+
+  <!-- jQuery Library -->
+  <script type="text/javascript" src="js/plugins/jquery-1.11.2.min.js"></script>
+  <!--materialize js-->
+  <script type="text/javascript" src="js/materialize.js"></script>
+  <!--prism-->
+  <script type="text/javascript" src="js/plugins/prism/prism.js"></script>
+  <!--scrollbar-->
+  <script type="text/javascript" src="js/plugins/perfect-scrollbar/perfect-scrollbar.min.js"></script>
+  <!-- chartist -->
+  <script type="text/javascript" src="js/plugins/chartist-js/chartist.min.js"></script>
+
+  <!--plugins.js - Some Specific JS codes for Plugin Settings-->
+  <script type="text/javascript" src="js/plugins.js"></script>
+  <!--custom-script.js - Add your own theme custom JS-->
+  <script type="text/javascript" src="js/custom-script.js"></script>
+
+</body>
+
+</html>
